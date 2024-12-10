@@ -1,0 +1,234 @@
+/* Estilos gerais */
+#game table tr:before {
+    content: attr(data-row);
+    margin-right: .5em;
+    text-align: center;
+}
+#game table tr:first-child td:before {    
+    content: attr(data-col);
+    top: -2.5em;
+    position: relative;
+}
+#game table {
+    margin: 0 auto;
+    
+}
+#game table, #game tr, #game td {
+    border-collapse: collapse;
+    border: 0 ;
+    
+}
+#game td {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #1E88E5;
+}
+#game td:hover {
+    background-color: #1565C0;
+}
+
+.ship-hit {
+    background-size: cover; /* Ajusta a imagem para cobrir totalmente a célula */
+    background-position: center;
+}
+
+/* Classes para navios verticais de cima para baixo */
+.ship1-down{
+    background-image: url('../img/cima-baixo/navio1.png');
+}
+
+.ship2-start-down {
+    background-image: url('../img/cima-baixo/navio2-1.png');
+}
+.ship2-end-down {
+    background-image: url('../img/cima-baixo/navio2-2.png');
+}
+
+.ship3-start-down {
+    background-image: url('../img/cima-baixo/navio3-1.png');
+}
+.ship3-middle1-down {
+    background-image: url('../img/cima-baixo/navio3-2.png');
+}
+.ship3-end-down {
+    background-image: url('../img/cima-baixo/navio3-3.png');
+}
+
+.ship4-start-down {
+    background-image: url('../img/cima-baixo/navio4-1.png');
+}
+.ship4-middle1-down {
+    background-image: url('../img/cima-baixo/navio4-2.png');
+}
+.ship4-middle2-down {
+    background-image: url('../img/cima-baixo/navio4-3.png');
+}
+.ship4-end-down {
+    background-image: url('../img/cima-baixo/navio4-4.png');
+}
+
+.ship5-start-down {
+    background-image: url('../img/cima-baixo/navio5-1.png');
+}
+.ship5-middle1-down {
+    background-image: url('../img/cima-baixo/navio5-2.png');
+}
+.ship5-middle2-down {
+    background-image: url('../img/cima-baixo/navio5-3.png');
+}
+.ship5-middle3-down {
+    background-image: url('../img/cima-baixo/navio5-4.png');
+}
+.ship5-end-down {
+    background-image: url('../img/cima-baixo/navio5-5.png');
+}
+
+/* Classes para navios verticais de baixo para cima */
+.ship1-up{
+    background-image: url('../img/baixo-cima/navio1.png');
+}
+.ship2-start-up {
+    background-image: url('../img/baixo-cima/navio2-1.png');
+}
+.ship2-end-up {
+    background-image: url('../img/baixo-cima/navio2-2.png');
+}
+
+.ship3-start-up {
+    background-image: url('../img/baixo-cima/navio3-1.png');
+}
+.ship3-middle1-up {
+    background-image: url('../img/baixo-cima/navio3-2.png');
+}
+.ship3-end-up {
+    background-image: url('../img/baixo-cima/navio3-3.png');
+}
+
+.ship4-start-up {
+    background-image: url('../img/baixo-cima/navio4-1.png');
+}
+.ship4-middle1-up {
+    background-image: url('../img/baixo-cima/navio4-2.png');
+}
+.ship4-middle2-up {
+    background-image: url('../img/baixo-cima/navio4-3.png');
+}
+.ship4-end-up {
+    background-image: url('../img/baixo-cima/navio4-4.png');
+}
+
+.ship5-start-up {
+    background-image: url('../img/baixo-cima/navio5-1.png');
+}
+.ship5-middle1-up {
+    background-image: url('../img/baixo-cima/navio5-2.png');
+}
+.ship5-middle2-up {
+    background-image: url('../img/baixo-cima/navio5-3.png');
+}
+.ship5-middle3-up {
+    background-image: url('../img/baixo-cima/navio5-4.png');
+}
+.ship5-end-up {
+    background-image: url('../img/baixo-cima/navio5-5.png');
+}
+
+/* Classes para navios horizontais da esquerda para direita */
+.ship1-right{
+    background-image: url('../img/esq-dir/navio1.png');
+}
+.ship2-start-right {
+    background-image: url('../img/esq-dir/navio2-1.png');
+}
+.ship2-end-right {
+    background-image: url('../img/esq-dir/navio2-2.png');
+}
+
+.ship3-start-right {
+    background-image: url('../img/esq-dir/navio3-1.png');
+}
+.ship3-middle1-right {
+    background-image: url('../img/esq-dir/navio3-2.png');
+}
+.ship3-end-right {
+    background-image: url('../img/esq-dir/navio3-3.png');
+}
+
+.ship4-start-right {
+    background-image: url('../img/esq-dir/navio4-1.png');
+}
+.ship4-middle1-right {
+    background-image: url('../img/esq-dir/navio4-2.png');
+}
+.ship4-middle2-right {
+    background-image: url('../img/esq-dir/navio4-3.png');
+}
+.ship4-end-right {
+    background-image: url('../img/esq-dir/navio4-4.png');
+}
+
+.ship5-start-right {
+    background-image: url('../img/esq-dir/navio5-1.png');
+}
+.ship5-middle1-right {
+    background-image: url('../img/esq-dir/navio5-2.png');
+}
+.ship5-middle2-right {
+    background-image: url('../img/esq-dir/navio5-3.png');
+}
+.ship5-middle3-right {
+    background-image: url('../img/esq-dir/navio5-4.png');
+}
+.ship5-end-right {
+    background-image: url('../img/esq-dir/navio5-5.png');
+}
+
+/* Classes para navios horizontais da direita para esquerda */
+.ship1-left{
+    background-image: url('../img/dir-esq/navio1.png');
+}
+.ship2-start-left {
+    background-image: url('../img/dir-esq/navio2-1.png');
+}
+.ship2-end-left {
+    background-image: url('../img/dir-esq/navio2-2.png');
+}
+
+.ship3-start-left {
+    background-image: url('../img/dir-esq/navio3-1.png');
+}
+.ship3-middle1-left {
+    background-image: url('../img/dir-esq/navio3-2.png');
+}
+.ship3-end-left {
+    background-image: url('../img/dir-esq/navio3-3.png');
+}
+
+.ship4-start-left {
+    background-image: url('../img/dir-esq/navio4-1.png');
+}
+.ship4-middle1-left {
+    background-image: url('../img/dir-esq/navio4-2.png');
+}
+.ship4-middle2-left {
+    background-image: url('../img/dir-esq/navio4-3.png');
+}
+.ship4-end-left {
+    background-image: url('../img/dir-esq/navio4-4.png');
+}
+
+.ship5-start-left {
+    background-image: url('../img/dir-esq/navio5-1.png');
+}
+.ship5-middle1-left {
+    background-image: url('../img/dir-esq/navio5-2.png');
+}
+.ship5-middle2-left {
+    background-image: url('../img/dir-esq/navio5-3.png');
+}
+.ship5-middle3-left {
+    background-image: url('../img/dir-esq/navio5-4.png');
+}
+.ship5-end-left {
+    background-image: url('../img/dir-esq/navio5-5.png');
+}

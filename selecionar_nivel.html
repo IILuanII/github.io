@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Seletor de Fases</title>
+	<link rel="stylesheet" href="css/stylepagegame.css">
+
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left: 20px;">
+        <a class="navbar-brand" href="index.html">Início</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="tutorial1.html">Tutorial</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Níveis
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="selecionar_nivel.html">Menu</a></li>
+                <li><a class="dropdown-item" href="nivel_facil.html">Fácil</a></li>
+                <li><a class="dropdown-item" href="nivel_medio.html">Médio</a></li>
+                <li><a class="dropdown-item" href="nivel_dificil.html">Difícil</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+	<div class="container-flex">
+		<header style="text-align: center">
+			<h1 style="margin-bottom: 0">
+				Batalha Naval
+			</h1>
+		</header>
+		
+		<div class="row">
+			<div class="col-xl-2">
+
+			</div>
+			<div class="col-xl-8 col-md-12 text-center">
+				<h3>Selecione uma Fase</h3>
+				<a href="nivel_facil.html"><button class="button-30">Nivel Fácil</button></a><br><br>
+				<a href="nivel_medio.html"><button class="button-30">Nivel Médio</button></a><br><br>
+				<a href="nivel_dificil.html"><button class="button-30">Nivel Difícil</button></a><br><br>
+				<a href="tutorial1.html"><button class="button-30"><i class="bi bi-arrow-left"></i>&nbsp;VOLTAR</button></a><br><br>
+			</div>
+
+		</div>
+		<div class="row section1">
+			<div class="col-xl-2">
+
+			</div>
+			<div class="col-xl-8 col-md-12 comojogar" style="padding-left: 50px; padding-right: 50px;">
+				<h2>Como jogar Batalha Naval?</h2>
+
+				<p>Bem-vindo ao Jogo de Batalha Naval! Este é um jogo clássico de estratégia onde seu objetivo é afundar
+					todos os navios do seu oponente. Vamos aprender como jogar:</p>
+
+				<h2>Como Jogar:</h2>
+
+				<h3>1. Preparação do Tabuleiro:</h3>
+				<p> - O jogo tem a interface de um tabuleiro de 5x5(nível fácil), 7x7(nível médio) e 10x10(nível difícil).</p>
+				<p>- Cada célula do tabuleiro representa uma coordenada, por exemplo, A1, B2, etc.</p>
+				<p>- Existem diferentes tipos de navios no tabuleiro, com tamanhos variados (2 a 5 células).</p>
+
+				<h3>2. Ataque Manual:</h3>
+				<p>- Para atacar uma coordenada específica, insira a coordenada X (1-10) e Y (A-J) nos campos
+					apropriados.</p>
+				<p>- Clique no botão "ENVIAR ATAQUE" para confirmar o ataque.</p>
+				<p>- Alternativamente, pressione a tecla "ENTER" enquanto estiver nos campos de entrada para enviar o
+					ataque automaticamente.</p>
+
+				<h3>3. Feedback dos Ataques:</h3>
+				<p>- Se acertar um navio, a célula correspondente mudará de cor e mostrará a parte do navio atingida.
+				</p>
+				<p>- Se errar, a célula mudará de cor indicando um erro.</p>
+				<p>- Todas as coordenadas atacadas, bem como o resultado dos ataques, serão exibidas na área de
+					histórico de coordenadas.</p>
+
+				<h3>4. Solicitação de Informação:</h3>
+				<p>- Pressione a tecla "K" para solicitar informações sobre a próxima posição dos navios.</p>
+				<p>- As informações sobre a posição dos navios serão exibidas na área designada.</p>
+
+				<h3>5. Modo Escuro:</h3>
+				<p>- Para alternar entre o modo claro e o modo escuro, clique no botão "Modo Escuro".</p>
+				<p>- O modo escuro altera as cores do fundo e do texto para uma experiência de visualização mais
+					confortável em ambientes com pouca luz.</p>
+
+				<h3>6. Fim do Jogo:</h3>
+				<p>- O jogo termina quando todos os navios são afundados.</p>
+				<p>- Uma mensagem de vitória será exibida com a taxa de acertos e o número total de tentativas.</p>
+
+				<h2> Controles:</h2>
+				<!--<p>- Mouse: Use o mouse para clicar nas células do tabuleiro para atacar ou para solicitar informações
+					sobre as posições dos navios.</p>-->
+				<p>- Teclado: Use o teclado para inserir as coordenadas e pressionar "ENTER" para enviar ataques.
+					Pressione "K" para solicitar informações.</p>
+
+				<h2>Dicas:</h2>
+				<p>- Planeje seus ataques estrategicamente para maximizar a eficiência e minimizar as tentativas.</p>
+				<p>- Observe o feedback dos ataques para ajustar suas estratégias.</p>
+					<br>
+				<h3 style="text-align: center;">Divirta-se jogando e boa sorte!</h3>
+
+			</div>
+			
+		</div>
+
+
+
+
+
+	</div>
+	<div class="footer">
+		<div class="container">
+			<footer>
+				<h6>2024 &copy;Luan Delaflora Guth</h6>
+			</footer>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
